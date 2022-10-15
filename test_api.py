@@ -10,7 +10,6 @@ def mul(a,b):
 def divide(a,b):
     return a/b
 
-
 @app.route('/add', methods= ['GET','POST'])  
 def fu():
     if (request.method == 'POST'):
